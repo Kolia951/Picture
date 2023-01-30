@@ -6,11 +6,3 @@ def sun():
   """
   
   return None
-  
-  
-def house():
-  """
-  Функция рисует дом
-  """
-  
-  return None
