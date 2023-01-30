@@ -2,7 +2,7 @@ import turtle
 
 def sun():
   """
-  Функция рисует солнце и тучи
+  Нелля рисует тучки
   """
   
   return None
