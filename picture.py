@@ -14,3 +14,7 @@ def house():
   """
   
   return None
+
+def draw_pic():
+    sun()
+    house()
