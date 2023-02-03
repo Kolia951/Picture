@@ -4,7 +4,7 @@ turtlePen = turtle.Turtle()
 window = turtle.Screen()
  
  
-def clouds(n):
+def sun():
     turtlePen.color("blue")
     for i in range(0, n):
         turtlePen.forward(150)
@@ -26,13 +26,21 @@ def clouds(n):
 turtlePen.speed(10)
 
 
-clouds(1)   # &lt;- вызов функции
+sun(1)   # &lt;- вызов функции
  
 turtlePen.color("white")
 turtlePen.right(90)
 turtlePen.forward(250)
 turtlePen.right(180)
 
-clouds(1)
+sun(1)
 
 window.mainloop() 
+
+
+def house():
+  """
+  Функция рисует дом
+  """
+  
+  return None
