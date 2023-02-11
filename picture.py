@@ -1,12 +1,9 @@
 import turtle
-
-def sun():
-    """
-    Функция рисует солнце и тучи
-    """
  
-  
-def house():
+turtlePen = turtle.Turtle()
+window = turtle.Screen()
+ 
+ def house():
     """
     Функция рисует дом
     """
@@ -35,8 +32,36 @@ def house():
     
     input()
     
-house()
+
+def sun():
+    turtlePen.color("blue")
+    for i in range(0, n):
+        turtlePen.forward(150)
+        turtlePen.left(90)
+        turtlePen.forward(50)
+        turtlePen.left(90)
+        turtlePen.forward(50)
+        turtlePen.right(90)
+        turtlePen.forward(50)
+        turtlePen.left(90)
+        turtlePen.forward(50)
+        turtlePen.left(90)
+        turtlePen.forward(50)
+        turtlePen.right(90)
+        turtlePen.forward(50)
+        turtlePen.left(90)
+        turtlePen.forward(50)
+
+turtlePen.speed(10)
+ 
+turtlePen.color("white")
+turtlePen.right(90)
+turtlePen.forward(250)
+turtlePen.right(180)
+
+window.mainloop() 
+
 
 def draw_pic():
-    sun()
+    sun(1)
     house()
